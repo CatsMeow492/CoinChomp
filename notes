@@ -1,0 +1,4 @@
+14:00
+
+npx create-next-app@latest coinchomp
+npm install -g @sanity/cli && sanity init
