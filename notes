@@ -1,3 +1,7 @@
+15:00
+
 npx create next-app@latest CoinChomp
 mkdir studio &&n cd studio
 sanity init
+yarn add sanity/client
+yarn add @sanity/image-url
