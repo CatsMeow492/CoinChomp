@@ -1,33 +1,22 @@
 {
   "name": "coinchomp",
   "private": true,
-  "version": "1.0.0",
-  "description": "",
-  "main": "package.json",
-  "author": "Taylor M <calisurf243@hotmail.com>",
-  "license": "UNLICENSED",
   "scripts": {
-    "start": "sanity start",
-    "build": "sanity build"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "keywords": [
-    "sanity"
-  ],
   "dependencies": {
-    "@sanity/base": "^2.25.4",
-    "@sanity/client": "^3.0.3",
-    "@sanity/core": "^2.25.0",
-    "@sanity/default-layout": "^2.25.4",
-    "@sanity/default-login": "^2.24.1",
-    "@sanity/desk-tool": "^2.25.4",
-    "@sanity/eslint-config-studio": "^2.0.0",
-    "@sanity/image-url": "^1.0.1",
-    "@sanity/vision": "^2.25.4",
-    "eslint": "^8.6.0",
-    "prop-types": "^15.7",
-    "react": "^17.0",
-    "react-dom": "^17.0",
-    "styled-components": "^5.2.0"
+    "@3rdweb/hooks": "^1.9.2",
+    "@3rdweb/react": "^1.9.3",
+    "@3rdweb/sdk": "^1.39.2",
+    "next": "12.0.10",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "eslint": "8.8.0",
+    "eslint-config-next": "12.0.10"
+  }
 }
