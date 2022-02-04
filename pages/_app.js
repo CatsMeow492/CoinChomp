@@ -13,7 +13,7 @@ function MyApp({ Component, pageProps }) {
     connectors={connectors}
     >
 
-      return <Component {...pageProps} />
+      <Component {...pageProps} />
     
     </ThirdwebWeb3Provider>
   )
